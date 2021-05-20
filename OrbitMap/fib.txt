@@ -1,0 +1,30 @@
+
+function fib(num: number) : number {
+   if (num <= 1) {
+    return 1;
+  }
+
+  return fib(num - 1) + fib(num - 2);
+}
+
+function fib_n(num: number) {
+
+    return new Promise<number>(function(resolve, reject) {
+
+        setTimeout( function():void {
+              resolve(fib(num));
+            },1000);
+
+    });
+}
+
+let p1 = fib_n(10);
+let p2 = fib_n(8);
+  
+
+Promise.all([p1, p2])
+    .then(results => {        
+        //print the first result
+        console.log(results[0]);
+    });
+

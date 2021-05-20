@@ -1,0 +1,16 @@
+C:\Users\Käyttäjä\source\repos\OrbitMap\OrbitMap\bin\Debug\net5.0\OrbitMap.exe
+C:\Users\Käyttäjä\source\repos\OrbitMap\OrbitMap\bin\Debug\net5.0\OrbitMap.deps.json
+C:\Users\Käyttäjä\source\repos\OrbitMap\OrbitMap\bin\Debug\net5.0\OrbitMap.runtimeconfig.json
+C:\Users\Käyttäjä\source\repos\OrbitMap\OrbitMap\bin\Debug\net5.0\OrbitMap.runtimeconfig.dev.json
+C:\Users\Käyttäjä\source\repos\OrbitMap\OrbitMap\bin\Debug\net5.0\OrbitMap.dll
+C:\Users\Käyttäjä\source\repos\OrbitMap\OrbitMap\bin\Debug\net5.0\ref\OrbitMap.dll
+C:\Users\Käyttäjä\source\repos\OrbitMap\OrbitMap\bin\Debug\net5.0\OrbitMap.pdb
+C:\Users\Käyttäjä\source\repos\OrbitMap\OrbitMap\obj\Debug\net5.0\OrbitMap.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Käyttäjä\source\repos\OrbitMap\OrbitMap\obj\Debug\net5.0\OrbitMap.AssemblyInfoInputs.cache
+C:\Users\Käyttäjä\source\repos\OrbitMap\OrbitMap\obj\Debug\net5.0\OrbitMap.AssemblyInfo.cs
+C:\Users\Käyttäjä\source\repos\OrbitMap\OrbitMap\obj\Debug\net5.0\OrbitMap.csproj.CoreCompileInputs.cache
+C:\Users\Käyttäjä\source\repos\OrbitMap\OrbitMap\obj\Debug\net5.0\OrbitMap.dll
+C:\Users\Käyttäjä\source\repos\OrbitMap\OrbitMap\obj\Debug\net5.0\ref\OrbitMap.dll
+C:\Users\Käyttäjä\source\repos\OrbitMap\OrbitMap\obj\Debug\net5.0\OrbitMap.pdb
+C:\Users\Käyttäjä\source\repos\OrbitMap\OrbitMap\obj\Debug\net5.0\OrbitMap.genruntimeconfig.cache
+C:\Users\Käyttäjä\source\repos\OrbitMap\OrbitMap\obj\Debug\net5.0\OrbitMap.csprojAssemblyReference.cache
