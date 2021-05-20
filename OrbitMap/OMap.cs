@@ -13,7 +13,7 @@ namespace OrbitMap
         
         private IEnumerable<int> GetMapEnumeration(string input)
         {
-            var ODic = GetMapDictionary(input);
+            var ODic = new MapDictionary(input);
 
             foreach (var obj in ODic)
             {
@@ -28,28 +28,7 @@ namespace OrbitMap
                 }
             }
         }
-        
-        private MapDictionary GetMapDictionary(string data)
-        {
-            var orbitDic = new MapDictionary();            
-
-            using (StringReader reader = new StringReader(data))
-            {
-                string line = string.Empty;
-                do
-                {
-                    line = reader.ReadLine();
-                    if (line != null)
-                    {
-                        string[] orbEntry = line.Split(')');
-                        orbitDic.Add(orbEntry[1], orbEntry[0]);
-                    }
-
-                } while (line != null);
-            }
-
-            return orbitDic;
-        }
+       
        
     }
 }

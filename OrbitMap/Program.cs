@@ -14,7 +14,7 @@ namespace OrbitMap
             if (string.IsNullOrEmpty(data) == false)
             {
                 int count = omap.GetOrbitCount(data);
-                Console.WriteLine("Orbit count : " + count);
+                Console.WriteLine("Orbit Count : " + count);
             }
 
             else
