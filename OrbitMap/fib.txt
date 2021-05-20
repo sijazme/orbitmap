@@ -7,19 +7,22 @@ function fib(num: number) : number {
   return fib(num - 1) + fib(num - 2);
 }
 
-function fib_n(num: number) {
+function fib_n(num: number, tag : string) {
 
-    return new Promise<number>(function(resolve, reject) {
+    return new Promise<string>(function(resolve, reject) {
 
         setTimeout( function():void {
-              resolve(fib(num));
+
+              let val = fib(num);
+              let retval =  tag + ': ' + val.toString();
+              resolve(retval);
             },1000);
 
     });
 }
 
-let p1 = fib_n(10);
-let p2 = fib_n(8);
+let p1 = fib_n(10,'p1');
+let p2 = fib_n(8,'p2');
   
 
 Promise.all([p1, p2])
